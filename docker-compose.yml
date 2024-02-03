@@ -1,0 +1,19 @@
+version: '3'
+services:
+  mail:
+    image: mail2
+    build: .
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "5000:3000"
+    volumes:
+      - ./:/app
+    command: npm start
+  maildev: 
+    container_name: Node_FormTest
+    image: djfarrelly/maildev
+    ports:
+      - 1080:80
+      - 25:25
+ 

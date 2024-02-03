@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+    <title>FORM-sendMaildev-miniject</title>
+</head>
+
+<body>
+    <center>
+
+
+        <div class="container">
+
+            <H1>Welcome to Website send emaildev.@</H1>
+
+            <form action="/send_email" method="post">
+                <div class="con">
+                    <div class="box">
+                        <div class="mes">
+                            <input type="email" name="from" id="from" placeholder="อีเมลผู้ใช้">
+                            <input type="email" name="to" id="to" placeholder="ถึง อีเมลผู้รับ">
+                            <input type="text" name="subject" id="subject" placeholder="หัวเรื่องข้อความที่ส่ง">
+                        </div>
+                        <div class="send">
+                            <input id="message" name="message" placeholder="พิมพ์ข้อความเลยจ้าาา"></input>
+                        </div>
+                    </div>
+                </div>
+                <div class="btns" >
+                    <input class="btn" type="submit" value="ส่งข้อความ">
+                    <input class="btnb" type="submit" value="&& website $$putty ##docker">
+                </div> 
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
+<style>
+    body {
+        height: 100vh;
+        background-image: url('https://cdn.pixabay.com/photo/2012/04/23/16/37/flag-38925_1280.png');
+        background-size: cover;
+    }
+
+    .container {
+        box-shadow: 10px 5px 10px 5px aliceblue;
+        border-radius: 15px;
+        margin: 50px;
+        padding: 100px;
+        background-color: rgba(240, 248, 255, 0.631);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    .container h1{
+        color: rgb(114, 122, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: -50px;
+    }
+    form {
+        display: grid;
+        border-radius: 5px;
+    }
+
+    form input {
+        padding: 15px;
+        width: 500px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .mes {
+        gap: 5px;
+        display: grid;
+        border-radius: 5px;
+    }
+
+    .send {
+
+        border-radius: 5px;
+    }
+
+    .box {
+        display: flex;
+        gap: 5px;
+    }
+    .btns .btnb{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #message {
+        height: 80%;
+        border: none;
+    }
+    .btns{
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+    }
+    .btn {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100;
+        border: none;
+        background-color: rgb(114, 122, 255);
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        border-radius: 5px;
+        font-weight: bold;
+
+    }
+</style>
